@@ -10,7 +10,7 @@ public class DBConnection {
             con = DriverManager.getConnection(
                     "jdbc:mysql://localhost:3306/library_db",
                     "root",
-                    "Sam@10126"
+                    "password"
             );
             System.out.println("Database Connected Successfully");
         } catch (Exception e) {
